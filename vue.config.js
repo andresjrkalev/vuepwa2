@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? '/docs' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/vuepwa2' : '/',
     pwa: {
         workboxPluginMode: 'InjectManifest',
         workboxOptions: {
