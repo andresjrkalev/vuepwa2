@@ -13,6 +13,11 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    "indent": ["warn", 4],
+    "semi": ["error", "always"],
+    "comman-dangle": "off",
+    "space-before-function-paren": 'off',
+    // "interface-name-prefix": ["prefixWithI", "always"]
   }
 }
